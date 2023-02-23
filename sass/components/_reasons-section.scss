@@ -1,0 +1,46 @@
+.reasons-section section {
+background-color: #e5e5e5;
+}
+
+.reason-section__text {
+margin-bottom: 44px;
+}
+
+.reasons-section__pretitle {
+display: flex;
+align-items: center;
+font-family: 'Open Sans';
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+text-transform: uppercase;
+color: #303030;
+margin-bottom: 20px;
+}
+
+.reasons-section__span {
+display: block;
+margin-right: 20px;
+width: 60px;
+height: 1px;
+background: #303030
+}
+
+.reasons-section__title {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 40px;
+line-height: 1.166;
+letter-spacing: .05em;
+color: #303030;
+margin-bottom: 20px;
+}
+
+.reasons-section__subtitle {
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.02em;
+color: #555555;
+}

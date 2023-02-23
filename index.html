@@ -6,12 +6,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800;900&family=Unbounded:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="header">
-      <a class="header__logo" href="/">
-        <img src="/images/Logo.png" alt="logo" />
-      </a>
-    </header>
+    <!-- <header class="header">
+      
+    </header> -->
+    <section class="start-section section">
+      <div class="header__container container">
+        <a class="header__logo" href="/">
+          <img src="/images/Logo.png" alt="logo" />
+        </a>
+        <button
+          class="button-menu is-open"
+          type="button"
+          aria-controls="menu-container"
+          data-menu-button
+        >
+          <svg
+            width="40px"
+            height="40px"
+            aria-label="Перемикач мобільного меню"
+          >
+            <use
+              class="button-menu__hamburger"
+              href="/images/symbol-defs.svg#icon-button-menu"
+            ></use>
+            <use class="button-menu__cros" href=""></use>
+          </svg>
+        </button>
+      </div>
+      <div class="start-section__text container">
+        <p class="start-section__pretitle">
+          <span class="start-section__span"></span>
+          A hair salon for men in Kyiv
+        </p>
+        <h3 class="start-section__title">BarberShop</h3>
+        <p class="start-section__subtitle">
+          We are experts in trendy men’s haircuts.<br />
+          We work quickly, carefully and with style.
+        </p>
+      </div>
+    </section>
+    <section class="section-best section">
+      <div class="section-best__text container">
+        <p class="section-best__pretitle">
+          <span class="section-best__span"></span>about
+        </p>
+        <h3 class="section-best__title">Best Barbershop in your city</h3>
+        <p class="section-best__descr1">
+          If you want to add more confidence to your image, you should visit us
+        </p>
+        <p class="section-best__descr2">
+          We are a team that never stops at what has been achieved and are
+          thirsty for changes. And when you fall into the hands of our master,
+          you will never be the same again. We are a team that is always "on the
+          same wave" with clients. Therefore, we are always ready to improve
+          everyone who comes to us!
+        </p>
+        <button type="button" class="booking-button">online-booking</button>
+      </div>
+    </section>
+    <section class="services-section section">
+      <div class="services-section__text container">
+        <p class="services-section__pretitle">
+          <span class="services-section__span"></span>Spend your time with the
+          best masters
+        </p>
+        <h3 class="services-section__title">Services and prices</h3>
+        <div class="services-section__table container">
+          <ul class="services-section__list">
+            <li class="services-section__item">
+              Men’s haircut
+              <span class="value">from 300 uah.</span>
+            </li>
+            <li class="services-section__item">
+              Beard trim
+              <span class="value">from 200 uah.</span>
+            </li>
+            <li class="services-section__item">
+              Mustache trim
+              <span class="value">from 200 uah.</span>
+            </li>
+            <li class="services-section__item">
+              Straight razor shave
+              <span class="value">from 200 uah.</span>
+            </li>
+            <li class="services-section__item">
+              Trainee’s haircut
+              <span class="value">from 50 uah.</span>
+            </li>
+            <li class="services-section__item">
+              Haircut under the nozzle
+              <span class="value">from 200 uah.</span>
+            </li>
+            <li class="services-section__item">
+              Children’s haircut (0-12 y.o.)
+              <span class="value">from 300 uah.</span>
+            </li>
+            <li class="services-section__item">
+              Camouflage of grey hair
+              <span class="value">from 200 uah.</span>
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="services-section__button">
+          online-booking
+        </button>
+      </div>
+    </section>
+    <section class="reasons-section section section">
+      <div class="container">
+        <div class="reason-section__text">
+          <p class="reasons-section__pretitle">
+            <span class="reasons-section__span"></span>Old traditional school
+          </p>
+          <h3 class="reasons-section__title">¿Why people come to us?</h3>
+          <p class="reasons-section__subtitle">
+            Only good things are said about us. But it's better to see and feel
+            1 time than read 10 times.
+          </p>
+        </div>
+        <div class="reasons-section__advantages">
+          <ul class="reasons-section__list">
+            <li class="reasons-section__item">
+              <span class="advantages-number"
+                >600
+                <svg class="icon-plus" width="13px" height="22px">
+                  <use href="images/symbol-defs.svg#icon-plus"></use>
+                </svg>
+              </span>
+              <p class="advantages-descr">Satisfied customers per day</p>
+            </li>
+            <li class="reasons-section__item">
+              <span class="advantages-number"
+                >50
+                <svg class="icon-plus" width="13px" height="22px">
+                  <use href="images/symbol-defs.svg#icon-plus"></use>
+                </svg>
+              </span>
+              <p class="advantages-descr">Awards for excellent service</p>
+            </li>
+            <li class="reasons-section__item">
+              <span class="advantages-number"
+                >20
+                <svg class="icon-plus" width="13px" height="22px">
+                  <use href="images/symbol-defs.svg#icon-plus"></use>
+                </svg>
+              </span>
+              <p class="advantages-descr">Kyiv’s best barbers</p>
+            </li>
+            <li class="reasons-section__item">
+              <span class="advantages-number"
+                >100
+                <svg class="icon-plus" width="13px" height="22px">
+                  <use href="images/symbol-defs.svg#icon-plus"></use>
+                </svg>
+              </span>
+              <p class="advantages-descr">Gifts for regular customers</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
